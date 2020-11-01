@@ -1,11 +1,11 @@
 app.component("msj", {
 
-	setup() {
-		const title = ref("Hola mundo")
-		return { title }
-	},
+  setup() {
+    const title = ref("Hola mundo")
+    return { title }
+  },
 
-	template: `
-		<p>{{ title }}</p>
-	`
+  template: `
+    <p>{{ title }}</p>
+  `
 })
