@@ -6,6 +6,7 @@ app.component("msj", {
   },
 
   template: `
+    <h3>ref</h3>
     <p>{{ title }}</p>
   `
 })

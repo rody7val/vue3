@@ -13,6 +13,7 @@ app.component("methods", {
   },
 
   template: `
+    <h3>methods</h3>
     <p @click="helloUser">click me</p>
   `
 })

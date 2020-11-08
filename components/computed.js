@@ -10,6 +10,7 @@ app.component("computed", {
   },
 
   template: `
+    <h3>computed</h3>
     <p>{{ fullname }}</p>
   `
 })
